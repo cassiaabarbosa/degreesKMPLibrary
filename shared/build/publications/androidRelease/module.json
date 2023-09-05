@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../shared/1.0.0/shared-1.0.0.module",
+    "group": "com.example.library",
+    "module": "shared",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-release.aar",
+          "url": "shared-android-1.0.0.aar",
+          "size": 1724,
+          "sha512": "6854a2ef11d887d3e8c6ab712805c1cc909c53dc927a76aba988f4aaae259029794bc3eb39d6e956eb045342b399b2b11b6af436d102f508729526fdcfd540c0",
+          "sha256": "25a6ed884c80cd2e728ee5b1f5aeca19acd17d9a15a7460582e40ee9d7e8bf62",
+          "sha1": "b6a48310debb22c5c628d0fa09c02d03578015c1",
+          "md5": "9a354f72b5a06739fa166c01c336a3da"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-release.aar",
+          "url": "shared-android-1.0.0.aar",
+          "size": 1724,
+          "sha512": "6854a2ef11d887d3e8c6ab712805c1cc909c53dc927a76aba988f4aaae259029794bc3eb39d6e956eb045342b399b2b11b6af436d102f508729526fdcfd540c0",
+          "sha256": "25a6ed884c80cd2e728ee5b1f5aeca19acd17d9a15a7460582e40ee9d7e8bf62",
+          "sha1": "b6a48310debb22c5c628d0fa09c02d03578015c1",
+          "md5": "9a354f72b5a06739fa166c01c336a3da"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "shared-android-1.0.0-sources.jar",
+          "url": "shared-android-1.0.0-sources.jar",
+          "size": 1620,
+          "sha512": "28dfc6924e8a48b117dc8bf249858728b940d962e1533ce2c89d35b4d39210ae7e1ef3bf0707800cc4b86e1a125cc96ae20bd73a680248e9b5bad1b862f28841",
+          "sha256": "cbf18f645aafbc5f4a3815587aa786bf8adc6f1acb0e8e48432c915e5714567e",
+          "sha1": "3c3cc657b5d985c38356ef9752c5387903226a4c",
+          "md5": "8640ec1c920df381905ac04fcb82a5fe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.degrees.CommonGreetingTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-08-28T20:34:14" hostname="BR-IT01340" time="0.01">
+  <properties/>
+  <testcase name="celsiusToKelvin" classname="com.example.degrees.CommonGreetingTest" time="0.01"/>
+  <testcase name="fahrenheitToKelvin" classname="com.example.degrees.CommonGreetingTest" time="0.0"/>
+  <testcase name="fahrenheitToCelsius" classname="com.example.degrees.CommonGreetingTest" time="0.0"/>
+  <testcase name="kelvinToCelsius" classname="com.example.degrees.CommonGreetingTest" time="0.0"/>
+  <testcase name="celsiusToFahrenheit" classname="com.example.degrees.CommonGreetingTest" time="0.0"/>
+  <testcase name="kelvinToFahrenheit" classname="com.example.degrees.CommonGreetingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

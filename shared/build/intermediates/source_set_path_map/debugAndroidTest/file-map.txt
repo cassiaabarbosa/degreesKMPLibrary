@@ -1,0 +1,5 @@
+com.example.degrees.test.shared-androidTest-0 /Users/cassia.barbosa/Documents/Degrees/shared/build/generated/res/resValues/androidTest/debug
+com.example.degrees.test.shared-mergeDebugAndroidTestResources-1 /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.degrees.test.shared-mergeDebugAndroidTestResources-2 /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.degrees.test.shared-merged_res-3 /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/merged_res/debugAndroidTest
+com.example.degrees.test.shared-packaged_res-4 /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/packaged_res/debug

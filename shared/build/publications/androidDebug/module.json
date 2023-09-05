@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../shared/1.0.0/shared-1.0.0.module",
+    "group": "com.example.library",
+    "module": "shared",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-debug.aar",
+          "url": "shared-android-debug-1.0.0.aar",
+          "size": 1739,
+          "sha512": "0bb40e498423691f15a859cb5d60f539f9ab3203d5c304167f4f1cf09fcc9fa31557fa337096a2e3c5b93ae59d3ba0cbeacdead4bb087c816c9f42906b3476c6",
+          "sha256": "d5a92643f53dc91f91b40f064accec132e8336647c80a2f1c49ec7d0eaf087aa",
+          "sha1": "6ed0963306a7f8fdc6d75fd0bef69c6619a2b070",
+          "md5": "b196a4e637cf4448c256b31f83d014cf"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-debug.aar",
+          "url": "shared-android-debug-1.0.0.aar",
+          "size": 1739,
+          "sha512": "0bb40e498423691f15a859cb5d60f539f9ab3203d5c304167f4f1cf09fcc9fa31557fa337096a2e3c5b93ae59d3ba0cbeacdead4bb087c816c9f42906b3476c6",
+          "sha256": "d5a92643f53dc91f91b40f064accec132e8336647c80a2f1c49ec7d0eaf087aa",
+          "sha1": "6ed0963306a7f8fdc6d75fd0bef69c6619a2b070",
+          "md5": "b196a4e637cf4448c256b31f83d014cf"
+        }
+      ]
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "shared-android-debug-1.0.0-sources.jar",
+          "url": "shared-android-debug-1.0.0-sources.jar",
+          "size": 1620,
+          "sha512": "28dfc6924e8a48b117dc8bf249858728b940d962e1533ce2c89d35b4d39210ae7e1ef3bf0707800cc4b86e1a125cc96ae20bd73a680248e9b5bad1b862f28841",
+          "sha256": "cbf18f645aafbc5f4a3815587aa786bf8adc6f1acb0e8e48432c915e5714567e",
+          "sha1": "3c3cc657b5d985c38356ef9752c5387903226a4c",
+          "md5": "8640ec1c920df381905ac04fcb82a5fe"
+        }
+      ]
+    }
+  ]
+}

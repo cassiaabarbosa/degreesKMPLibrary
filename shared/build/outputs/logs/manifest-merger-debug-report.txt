@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml:2:13-83
+INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml:2:13-83
+	package
+		INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml
+	xmlns:android
+		ADDED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml:2:23-81
+uses-sdk
+INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml reason: use-sdk injection requested
+INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml
+INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml
+	android:minSdkVersion
+		INJECTED from /Users/cassia.barbosa/Documents/Degrees/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9747031054542557782.xml
